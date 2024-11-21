@@ -28,6 +28,6 @@ buildLua rec {
     description = "Userscript that allows you to play 'up next'/recommended youtube videos";
     homepage = "https://github.com/cvzi/mpv-youtube-upnext";
     maintainers = with maintainers; [ bddvlpr ];
-    license = licenses.unfree;
+    license = licenses.isc;
   };
 }
